@@ -17,7 +17,7 @@
 ## اجرای برنامه
 برای اجرای برنامه، دستور زیر را در ترمینال خود اجرا کنید:
 ```bash
-python file_search_tool.py
+python search.py
 ```
 
 ## ساخت فایل اجرایی (اختیاری)
@@ -28,7 +28,7 @@ python file_search_tool.py
     ```
 2. از PyInstaller برای ایجاد فایل اجرایی استفاده کنید:
     ```bash
-    pyinstaller --onefile --noconsole file_search_tool.py
+    pyinstaller --onefile --noconsole search.py
     ```
 3. فایل اجرایی در پوشه `dist` موجود خواهد بود.
 
